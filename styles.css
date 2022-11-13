@@ -1,1 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #b08bc6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+img{
+    height: 600px;
 
+}
+.phone {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #eee;
+    border-radius: 15px;
+    height: 600px;
+    width: 340px;
+}
+nav {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    background-color: white;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+
+nav li {
+    margin-top: 5px;
+    color: #767676;
+    cursor: pointer;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li p {
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+nav ul li:hover,
+nav ul li.active {
+    color: #484cb2;
+}
